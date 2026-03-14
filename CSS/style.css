@@ -1,0 +1,285 @@
+body{
+    background-color: rgb(241, 210, 152);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    font-family:bebas neue;
+
+}
+#novo{
+    color: rgb(237, 255, 249);
+    font-size: 400%;
+}
+.logo{
+    width: 300px;
+    height: 150px;    
+}
+
+header{
+    background-color:rgb(150, 16, 16);
+    text-align:center;
+    padding:10px;
+   
+}
+nav{
+    background-color:rgb(255, 187, 0) ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+nav a{
+    color: brown;
+    margin: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+nav a:hover{
+    color: white;
+    background-color: burlywood;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+section{
+    padding: 10px;
+    
+}
+footer{
+    background-color: brown;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: brown;
+    padding: 30px;
+    margin:50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    transition: 0.3s;
+
+}
+.galeria:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+
+
+}
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: brown;
+    margin: 50px auto;
+}
+#line2{
+    width: 100%;
+    height: 30px;
+   background-color:rgb(255, 174, 0)
+}
+html{
+    scroll-behavior: smooth;
+}
+.titulos{
+    font-family:bebas neue;
+    color:yellow
+}
+.pizza{
+    background-color:rgb(161, 17, 17);
+    width: 300px;
+    
+    padding: 10px;
+    margin: 11px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-family:bebas neue;
+    font-size: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    transition: 0.3s;
+}
+.pizza:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+
+}
+.nome{
+    display: flex;
+    color: yellow;
+    padding: 5px;
+   justify-content: center;
+   font-size: 28px;
+}
+.nome2{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: rgb(255, 244, 244);
+
+}
+
+#contato{
+    
+    background-color:rgb(161, 17, 17);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 50px;
+    color: whitesmoke;
+    font-family:bebas neue;
+    font-size: 100%;
+}
+.imgpz{
+    display: flex;
+    justify-content: center;
+   background-color: whitesmoke;
+   border-radius: 100px;
+   background-size: 5px;
+   width: 100%;
+   height: 150px;    
+}
+.prc{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: wheat;
+    transition: 0.5s;
+
+    border-radius: 30px;
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    margin: 11px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-family:bebas neue;
+    font-size: 30px;
+    transition: 0.1s;
+ 
+}
+.prc:hover{
+    background-color:#da8506
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+#txt{
+    width: 80%;
+    height: 6vh;
+    background-color: brown;
+    border-radius: 40px;
+    padding:7%;    
+    color: whitesmoke;
+    font-size: 120%;
+}
+.sobre .nome2{
+    display: inline;
+    font-size: 90%;
+}
+.pizzas{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+.pizzad{
+    background-color:rgb(211, 85, 117);
+    padding: 10px;
+    margin: 11px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-family:bebas neue;
+    font-size: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    transition: 0.3s;
+}
+.pizzad:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(0,0,0,1);
+
+}
+.pizzad .nome{
+    color: rgb(138, 2, 58);
+}
+.promocoes .pizza{
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+}
+.promocoes .imgpz{
+     width: 400px;
+   height: 150px;
+}
+.promocoes{
+    background: linear-gradient(45deg,#8b0000,#c40000);
+}
+.promocoes .title{
+    color: whitesmoke;
+    padding: 40px;
+    border-radius: 30px;
+}
+.promocoes .pizzas{
+    border: 3px solid gold;
+}
+.promocoes .pizza{
+    border: 3px solid gold;
+    box-shadow:  0 0 15px rgba(255,215,0,0.6);
+}
+.promocoes .prc{
+    background-color:rgb(0, 0, 0);
+    padding: 10px;
+    margin: 11px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-family:bebas neue;
+    font-size: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    transition: 0.1s;
+    background: linear-gradient(
+        90deg,
+
+#fff5b7,
+#ffd700
+);
+
+background-size: 200%;
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+
+animation: brilho 2s linear infinite;
+    
+}
+.promocoes .prc:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgb(255, 255, 255);
+}
+@keyframes brilho {
+    0%{
+        background-position: -200%;
+    }
+
+    100%{
+        background-position: 200%;
+    }
+}
+#salgadas{
+    font-size: 30px;
+    color:rgb(0, 0, 0)
+}
+#doces{
+    font-size: 30px;
+    color: black;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+}
+.element{
+ color: whitesmoke;
+ text-decoration: none;
+}
